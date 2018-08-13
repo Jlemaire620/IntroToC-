@@ -16,12 +16,16 @@ int main()
 	std::cout << "9 Stairway to Heaven" << std::endl;
 	std::cout << "10 Unforgetable" << std::endl; 
 
-	std::cout << '0' << std::endl;
-	std::cout << '1' << std::endl;
-	std::cout << '2' << std::endl;
-	std::cout << '3' << std::endl;
-	std::cout << '4' << std::endl;
-	std::cout << '5' << std::endl;
+	std::cout << (char)'0' << std::endl;
+	std::cout << (char)'1' << std::endl;
+	std::cout << (char)'2' << std::endl;
+	std::cout << (char)'3' << std::endl;
+	std::cout << (char)'4' << std::endl;
+	std::cout << (char)'5' << std::endl;
+
+	std::cout << "const char[18]" "beetle juice" << std::endl;
+	std::cout << "0\n1\n2\n3" << std::endl; 
+
 
 	std::cout << "5\n4\n3\n2\n1\n0" << std::endl;
 	system("pause");
